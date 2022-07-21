@@ -1,0 +1,180 @@
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Tinos', serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+/*header*/
+
+.header-site ul li a{
+    color: #fcf6f6;
+    font-size: 23px;
+    text-decoration: none;
+}
+.header-site ul li{
+    list-style: none;
+}
+.header-site ul{
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 27px;
+    text-align: center;
+    color: #b5b377; 
+    margin: 0;
+}
+.header-site ul li:nth-child(1){
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.header-site ul li:nth-child(2) {
+    font-family: 'Square Peg', cursive;
+}
+.header-site ul li:nth-child(3){
+    font-family: 'Source Code Pro', monospace;
+}
+.header-site ul li:nth-child(4){
+    font-family: 'Crimson Text', serif;
+}
+/* .header-section{
+    background-color: #BCC6CC;
+    height: 100vh;
+} */
+#myVideo{
+    height:630px;
+    position: relative;
+    width:100%;
+}
+.header-content{
+    position: absolute ;
+    top: 50px; 
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    row-gap: 30px;
+}
+/*plan 1*/
+section#plan1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cec1d3;
+}
+.right-1 {
+    width: 50%;
+    height: auto;
+}
+.left-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.left-1 img:nth-child(1){
+    height: 180px;
+}
+img{
+    width: 100%;
+}
+.right-1 h2{
+    color: #fcf6f6;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+.right-1 h2::after{
+    content: '\f4da';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+} 
+.right-1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+section#plan2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b3c3c9;
+}
+section#plan2 .right-1 h2::after{
+    content: '\f598';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+} 
+section#plan2 .left-1 img:nth-child(3) {
+    height: 180px;
+}
+section#plan3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b4c973;
+}
+section#plan3 .right-1 h2::after{
+    content: '\f58b';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+} 
+section#plan3 .left-1 img:nth-child(3) , section#plan3 .left-1 img:nth-child(2) , section#plan3 .left-1 img:nth-child(1) {
+    height: 168px;
+}
+section#plan4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9eb66;
+}
+section#plan4 .right-1 h2::after{
+    content: '\f584';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+} 
+section#plan4 .left-1 img:nth-child(3) {
+    height: 140px;
+}
+
+footer h3 {
+    font-size: 30px;
+    background-color: antiquewhite;
+    margin: 0;
+    text-align: center;
+    color: brown;
+}
